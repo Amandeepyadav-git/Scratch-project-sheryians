@@ -1,0 +1,24 @@
+Required Data for new user login:
+
+USER Details
+
+userModel
+
+FullName - string
+Email - string
+password - string
+cart - [ids]
+isAdmin - boolean
+orders = []
+contact - number
+picture - string (db)
+
+PRODUCT Details
+
+product image
+product name
+product price
+discount
+bgcolor
+panelcolor
+textcolor
