@@ -1,3 +1,20 @@
+-How to login
+
+-Run npm init command to download modules
+-npm install
+    -express
+    -ejs
+    -mongoose
+    -bcrypt
+    -config
+    -cookie-parser
+    -debug
+    -jsonwebtoken
+    -multer
+
+
+
+
 Required Data for new user login:
 
 USER Details
