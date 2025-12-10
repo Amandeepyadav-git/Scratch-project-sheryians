@@ -19,9 +19,9 @@ app.get("/", (req, res)=>{
     res.send("hey")
 })
 
-app.get("/owners", ownersRouter);
-app.get("/users", usersRouter)
-app.get("/products", productsRouter);
+app.use("/owners", ownersRouter);
+app.use("/users", usersRouter)
+app.use("/products", productsRouter);
 
 app.listen(3001, ()=>{console.log("running at 3001 port");
 });
