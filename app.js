@@ -23,5 +23,4 @@ app.use("/owners", ownersRouter);
 app.use("/users", usersRouter)
 app.use("/products", productsRouter);
 
-app.listen(3001, ()=>{console.log("running at 3001 port");
-});
+app.listen(3001, ()=>{});
