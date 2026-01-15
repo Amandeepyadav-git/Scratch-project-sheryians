@@ -1,41 +1,30 @@
--How to login
+# Amandeepyadav-git / Scratch-project-sherians
 
--Run npm init command to download modules
--npm install
-    -express
-    -ejs
-    -mongoose
-    -bcrypt
-    -config
-    -cookie-parser
-    -debug
-    -jsonwebtoken
-    -multer
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![GitHub Stars](https://img.shields.io/github/stars/Amandeepyadav-git/Scratch-project-sherians?color=yellow)](https://github.com/Amandeepyadav-git/Scratch-project-sherians)
+[![GitHub Forks](https://img.shields.io/github/forks/Amandeepyadav-git/Scratch-project-sherians?color=green)](https://github.com/Amandeepyadav-git/Scratch-project-sherians)
+[![GitHub Issues](https://img.shields.io/github/issues/Amandeepyadav-git/Scratch-project-sherians?color=red)](https://github.com/Amandeepyadav-git/Scratch-project-sherians)
 
+## Overview
 
+This repository contains a work-in-progress project, likely related to building a web application. It appears to be utilizing Node.js and Express.js as core technologies. The project is designed to handle user login and data management, with a focus on product information.
 
+## Key Features (Based on screenshots)
 
-Required Data for new user login:
+*   **User Authentication:** The project includes functionality for user login and management.
+*   **Product Management:** The application appears to be designed to store and manage product data, including details like name, price, image, and discount.
+*   **Data Storage:** It seems to utilize a database (likely MongoDB, based on the modules listed).
+*   **Node.js and Express.js:** The core backend is built using Node.js and the Express.js framework.
 
-USER Details
+## Technologies Used
 
-userModel
+*   **Node.js:** JavaScript runtime environment.
+*   **Express.js:** Web application framework for Node.js.
+*   **MongoDB:** Database (implied by modules).
+*   **bcrypt:** For password hashing and security.
+*   **cookie-parser:** For parsing cookies.
+*   **jsonwebtoken:** For creating and verifying JSON Web Tokens (JWTs)
+*   **mongoose:** Object Data Modeling (ODM) library for MongoDB and Node.js.
+*   **Multer:** For handling file uploads.
 
-FullName - string
-Email - string
-password - string
-cart - [ids]
-isAdmin - boolean
-orders = []
-contact - number
-picture - string (db)
-
-PRODUCT Details
-
-product image
-product name
-product price
-discount
-bgcolor
-panelcolor
-textcolor
+## Project Structure
